@@ -1,0 +1,11 @@
+
+ihours = input("Hours: ")
+irate = input("Rate: ")
+hours = int(ihours)
+rate = int(irate)
+extra = 0
+if hours > 40:
+    extra = hours - 40
+    hours = 40
+    pay = hours*rate + 1.5 * rate * extra
+    print(pay)
