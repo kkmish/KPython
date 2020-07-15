@@ -1,0 +1,6 @@
+import math
+def new_function(num):
+    return math.pi*num
+def void_function(num1,num2):
+    print(new_function(num1**num2))
+void_function(4.6,7.3)      
