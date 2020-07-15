@@ -1,0 +1,9 @@
+def except_func(num):
+     multi=num * num
+     return multi
+try:
+    num=int(input("Enter your age "))
+    x=except_func(num)
+    print(x)
+except:
+   print("invalid number")
