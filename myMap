@@ -1,0 +1,10 @@
+def mymap(a, f):
+    r = []
+    for i in a:
+        v = f(i)
+        r.append(v)
+    return r
+print(mymap([1,2,3], sq))
+
+def cube(x): return x*x*x
+print(mymap([1,2,3], cube))
