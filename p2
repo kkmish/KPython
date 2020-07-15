@@ -1,0 +1,8 @@
+square_area = 8.9 * 8.9
+square_area_type = type(square_area)
+square_area_int = int(square_area)
+square_area_str = str(square_area_int)
+print(square_area)
+print(square_area_type)
+print(square_area_int)
+print(square_area_str)
