@@ -1,0 +1,11 @@
+def pay_calculator(hours, rate):
+    if hours>40:
+        extra_hours = hours - 40
+        extra_rate = rate * 1.5
+        total_pay = (40 * rate) + (extra_hours * extra_rate)
+    else:
+        total_pay = 40 * rate
+    return total_pay
+
+print(pay_calculator(45,10))
+    
