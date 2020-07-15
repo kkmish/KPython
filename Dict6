@@ -1,0 +1,11 @@
+mybag = {}
+mybag['nbooks'] = 1
+mybag['book'] = 2
+mybag['laptop'] = True
+print(mybag['nbooks'])
+print(mybag['laptop'])
+'book' in mybag
+print(mybag.items())
+if 'book' in mybag: print("bingo")
+else:
+    print("sorry")
