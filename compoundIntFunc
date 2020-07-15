@@ -1,0 +1,13 @@
+def compound_interest(principle,rate,years):
+    if principle > 0 and rate > 0 and years>0:
+        interest = 0.0
+        x = principle
+        old_principle = principle
+        for i in range(years):
+            interest = (x * rate * 1)/100
+            x = x + interest
+        comp_interest = x - old_principle
+        return comp_interest
+    else:
+        return(0)
+compound_interest(100,5,2)     
