@@ -1,0 +1,8 @@
+def conditional_statements(num1,num2,num3,num4):
+    if (num1 < num2 and num1 > num3 and num1 == num4):
+        if (num3 < num1 and num3 < num2 and num3 < num4):
+            if (type(num2) == float):
+                if (type(num1)==int and type(num3)==int and type(num4)==int):
+                    return (num1+num2+num3+num4)
+    else:
+        return None
