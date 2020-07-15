@@ -1,0 +1,7 @@
+def my_function(number):
+    xyz = number
+    xyz_str = str(number)
+    xyz_str = (xyz_str + "cloudxlab")
+    print(xyz_str)   
+    number=10
+my_function(10)
