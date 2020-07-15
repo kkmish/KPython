@@ -1,0 +1,4 @@
+def slicing_func(str):
+    print(str[2:])
+    
+slicing_func("Hello World")
