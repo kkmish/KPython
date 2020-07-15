@@ -1,0 +1,5 @@
+l=[]
+l.append("first")
+l.append("second")
+l.append("third")
+print(l)
