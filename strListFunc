@@ -1,0 +1,21 @@
+def str_list_func(inp):
+    inp_list = inp.split()
+    first = None
+    Last = None
+    output = list()
+    for i in inp_list:
+        word = i
+        l = list(word)
+        first = l[0]
+        second = l[-1]
+        l[0]=second
+        l[-1]=first
+        output.append("".join(l))
+    return " ".join(output)   
+    
+    with open("/cxldata/python_sample_file") as f:
+    s = ""
+    for line in f:
+        print(line)
+        s = s + line
+    print(s)
