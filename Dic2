@@ -1,0 +1,6 @@
+jjj = {'chuck' : 1,'fred' : 47,'jane' : 101}
+print(jjj)
+print(jjj['chuck'])
+'chuck' in jjj
+print(jjj.keys())
+print(jjj.values())
