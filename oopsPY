@@ -1,0 +1,22 @@
+class PartyAnimal:
+    x = 0
+    def party(self):
+        self.x = self.x + 1
+        print("So far",self.x)
+     
+an = PartyAnimal()
+print("--AN----")
+an.party()
+an.party()
+an.party()   
+
+print("--SO----")
+so = PartyAnimal()
+so.party()
+so.party()
+
+print("--AN----")
+an.party()
+print(type(an))
+
+print(type(so))        
