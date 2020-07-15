@@ -1,0 +1,19 @@
+def file_read_func(path):
+    try:
+        with open(path) as f:
+            content = f.read()
+            content = content.replace('\n',' ')
+            list_of_words = content.split(" ")
+            sum = 0
+            for word in list_of_words:
+                sum = sum + len(word)
+            return sum    
+    except:
+        return -1
+        
+check = 0
+with open("/cxldata/python_sample_file") as f:
+    for line in f:
+        if(line.startswith('w')):
+            check = check + 1
+    print(check)        
